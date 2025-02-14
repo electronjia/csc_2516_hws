@@ -3,16 +3,18 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8
-  - numpy
-  - scipy
-  - matplotlib
-  - ipykernel
-  - pillow
-  - tqdm
-  - pytorch
-  - torchvision
+  - python=3.9 
+  - numpy>=1.22.0 
+  - scipy>=1.8.0
+  - matplotlib>=3.5.0
+  - ipykernel>=6.0
+  - pillow>=9.0
+  - tqdm>=4.62
+  - pytorch=1.10 
+  - torchvision=0.11 
+  - scikit-learn>=0.24.0
   - pip
   - pip:
-      - autograd==1.7.0
-      - sympy==1.13.3
+    - autograd==1.7.0
+    - sympy==1.13.3
+    - torchmetrics==0.5.1
